@@ -1,4 +1,2 @@
-python3 -V
-pip3 -V
-pip3 list
-which python
+where php
+netstat -ano|findstr "PID :80"
