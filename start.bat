@@ -1,1 +1,2 @@
-php -S localhost:80
+::php -S localhost:80
+serve.bat localhost:80
