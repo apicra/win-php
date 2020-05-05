@@ -1,7 +1,7 @@
 @ECHO OFF
-netstat -a -n -o | findstr /i ":80"
+netstat -a -n -o | findstr /i ":8080"
 set "lastoccur="
-FOR /F "tokens=5" %%T IN ('netstat -a -n -o ^| findstr ":80" ') DO set "lastoccur=%%T"
+FOR /F "tokens=5" %%T IN ('netstat -a -n -o ^| findstr ":8080" ') DO set "lastoccur=%%T"
 set lastoccur
 echo "%lastoccur%"
 echo ProcessId to kill = %lastoccur%
