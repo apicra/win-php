@@ -1,5 +1,5 @@
 @ECHO OFF
-tasklist /v | find "php.exe"
+::tasklist /v | find "php.exe"
 taskkill /F /IM php.exe
 ::FOR /F "tokens=5" %%T IN ('tasklist /v | find "php.exe" ') DO (
 ::echo ProcessId to kill = %%T
