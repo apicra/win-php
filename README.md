@@ -5,6 +5,26 @@ PHP.exe with all modules, to usage locally
 
 https://windows.php.net/download#php-7.3
 
+## List of commands:
+
+    -install-composer.bat
+    curl.bat
+    doc.bat
+    download.bat
+    info.bat
+    install.bat
+    php.bat
+    powershell.bat
+    remove.bat
+    serve.bat
+    start.bat
+    status.bat
+    stop.bat
+    stop_port.bat
+    test_after.bat
+    test_before.bat
+    update.bat
+
 
 # Sources
 
